@@ -8,7 +8,7 @@ public class CalculadoraJurosTeste {
         final double MONTANTE_ESPERADO = 1100.0;
 
         CalculadoraJuros calculadora = new CalculadoraJuros();
-        double montante = calculadora.calcularJurosSimples(1000.0, 0.01, 1);
+        double montante = calculadora.calcularJurosSimples(1000.0, 0.1, 1);
 
         assertEquals(MONTANTE_ESPERADO, montante);
     }
