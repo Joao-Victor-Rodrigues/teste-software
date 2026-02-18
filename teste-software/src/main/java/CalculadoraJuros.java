@@ -1,12 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author 320255337
- */
 public class CalculadoraJuros {
     
+    public int calcularJurosSimples(double capital, double taxa, int tempo) {
+        throw new UnsupportedOperationException("Método não implementado");
+    }
 }
